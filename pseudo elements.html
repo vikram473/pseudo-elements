@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            width: 60vw;
+            height: 90vh;
+            border: 2px solid black;
+            left: 20vw;
+        }
+        .upper{
+            border: 2px solid;
+            height: 45vh;
+
+        }
+        .lower{
+            border: 2px solid;
+            height: 44.5vh;
+            background-color: black;
+        }
+       
+
+        .circle{
+            border: 25px solid white;
+            height: 40vh;
+            width: 20vw;
+            border-radius: 50%;
+            position: absolute;
+            background-color: red;
+            bottom: 24vh;
+            right: 18vw;
+        }
+        .circle::before{
+            content: '';
+            border: 2px solid white;
+            height: 15vh;
+            width: 10vw;
+            background-color: white;
+            position: absolute;
+            bottom:5vh;
+            right: 21.5vw;
+
+        }
+        .circle::after{
+            content: '';
+            border: 2px solid white;
+            height: 15vh;
+            width: 10vw;
+            background-color: white;
+            position: absolute;
+            left: 21.5vw;
+            top: 21.5vh;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper"></div>
+        <div class="lower"></div>
+        <div class="circle"></div>
+        
+
+
+    </div>
+    
+</body>
+</html>
+</body>
+</html>
